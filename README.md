@@ -3,12 +3,11 @@ Projeto de uso do getawy de pagamento do [Asaas](https://www.asaas.com)
 
 ## Requisitos
 - PHP 8.3
-- MSSQL
 
 ## Configuração
 Para uso do sistema siga os passo abaixo:
 - Copie o arquivo .env.example para .env<br />
-- Em DB_USERNAME e DB_PASSWORD; insira suas credenciais do MySQL<br />
+- Em DB_USERNAME e DB_PASSWORD; insira suas credenciais do Banco de dados<br />
 - Em ASAAS_API_KEY; insira sua credencial do Sandbox do Asaas<br />
 - Na pasta do projeto execute os seguintes comandos<br />
 - - #composer install<br />
