@@ -14,9 +14,9 @@
     <title>Perfect Checkout - @yield('title')</title>
 
     <!-- Fonts -->
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
-    <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/css@3.css') }}">
-    <link href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/" />
+    <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/css@3.css') }}" />
+    <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('plugins/fontawesome/css/all.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('plugins/select2/css/select2.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('plugins/select2/css/select2-bootstrap.css') }}" />

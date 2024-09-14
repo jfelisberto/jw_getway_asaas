@@ -1,5 +1,5 @@
 # jw_getway_asaas
-Projeto de uso do getawy de pagamento do [Asaas](https://www.asaas.com)
+Projeto de uso do getawy de pagamento do [Asaas](https://www.asaas.com), utilizando o Framework Laravel
 
 ## Requisitos
 - PHP 8.3
