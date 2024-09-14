@@ -1,18 +1,19 @@
 # jw_getway_asaas
-Projeto de uso do getawy de pagamento do Asaas
+Projeto de uso do getawy de pagamento do [Asaas](https://www.asaas.com)
 
-## Como rodar o projeto
-Olá seja bem vindo.
+## Requisitos
+- PHP 8.3
+- MSSQL
 
-Siga os passos a seguir para rodar o projeto em seu ambiente
-
-1 - Copie o arquivo .env.example para .env<br />
-2 - Em DB_USERNAME e DB_PASSWORD; insira suas credenciais do MySQL<br />
-3 - Em ASAAS_API_KEY; insira sua credencial do Sandbox do Asaas<br />
-4 - Na pasta do projeto execute os seguintes comandos<br />
-4.1 - #composer install<br />
-4.2 - #php artisan migrate<br />
-5 - Para simular um erro na comprar com cartão de credito, utilize os seguintes números: 5184019740373151 (Mastercard) ou 4916561358240741 (Visa)<br />
+## Configuração
+Para uso do sistema siga os passo abaixo:
+- Copie o arquivo .env.example para .env<br />
+- Em DB_USERNAME e DB_PASSWORD; insira suas credenciais do MySQL<br />
+- Em ASAAS_API_KEY; insira sua credencial do Sandbox do Asaas<br />
+- Na pasta do projeto execute os seguintes comandos<br />
+- - #composer install<br />
+- - #php artisan migrate<br />
+- Para simular um erro na comprar com cartão de credito, utilize os seguintes números: 5184019740373151 (Mastercard) ou 4916561358240741 (Visa)<br />
 
 ## Liceça
 
