@@ -1,25 +1,36 @@
 # jw_getway_asaas
-Projeto de uso do getawy de pagamento do [Asaas](https://www.asaas.com), utilizando o Framework Laravel
+Projeto de uso do getawy de pagamento do Asaas
 
 ## Requisitos
-- PHP 8.3
+* PHP 8.3
+* Composer
 
-## Configuração
+## Como rodar o projeto
+Olá seja bem vindo.
+
+Siga os passos a seguir para rodar o projeto em seu ambiente
+
 Para uso do sistema siga os passo abaixo:
-- Copie o arquivo .env.example para .env<br />
-- Em DB_USERNAME e DB_PASSWORD; insira suas credenciais do Banco de dados<br />
-- Em ASAAS_API_KEY; insira sua credencial do Sandbox do Asaas<br />
-- Na pasta do projeto execute os seguintes comandos<br />
-- - #composer install<br />
-- - #php artisan migrate<br />
-- Para simular um erro na comprar com cartão de credito, utilize os seguintes números: 5184019740373151 (Mastercard) ou 4916561358240741 (Visa)<br />
+* Comece fazendo uma cópia do arquivo *.env.example* para *.env*
+    - DB_USERNAME = usuario de acesso ao banco
+    - DB_PASSWORD = a senha do usuario de acesso ao banco
+
+* Em ASAAS_API_KEY; insira sua credencial do Sandbox do Asaas
+* Para simular um erro na comprar com cartão de credito, utilize os seguintes números: 5184019740373151 (Mastercard) ou 4916561358240741 (Visa)
+<br />
+
+Na pasta do projeto, atravez do sonsole, execute os seguintes comandos:<br />
+    #composer install<br />
+    #php artisan migrate
+
+Para iniciar o projto criado com Laravel e acessar através do endereço localhos:8000, no terminal e exute o comando abaixo:<br />
+    #php artisan serve
 
 ## Liceça
 
 Este é um software de código aberto licenciado sob a [MIT license](https://opensource.org/licenses/MIT).
 
 <hr />
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
